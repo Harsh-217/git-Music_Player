@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#audioPlayer {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #cc39cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5d045d;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8E7AB5;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 0px;
+}
+
+section {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+footer {
+    background-color: #E493B3;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dbc8c8;
+}
+
+div {
+
+    justify-content: center;
+    align-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.music-player {
+    background-color: #b86262;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.album-cover img {
+    width: auto;
+    height: auto;
+}
+
+.song-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.controls {
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: #0e0d0d;
+    color: #eee1e1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.playlist {
+    margin-left: 20px;
+}
+
+#songList {
+    list-style: none;
+    padding: 0;
+}
+
+#songList li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#songList li:hover {
+    color: #100f0f;
+}
